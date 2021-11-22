@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+:root {
+	--pry-clr-1: #0f0c29;
+	--pry-clr-2: #302b63;
+	--pry-clr-3: #24243e;
+
+	/* Transition */
+	--sht-trans: all 0.2s linear;
+}
+
+.app {
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	min-height: 100vh;
+	/* background: #383277; */
+}
+
+.flexed {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-btw {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.underline {
+	width: 30%;
+	height: 0.1rem;
+	margin: 0.4rem auto;
+	background: var(--pry-clr-1);
+}
+
+.underline-full {
+	width: 100%;
+	height: 0.15rem;
+	margin: 0.6rem auto;
+	background: var(--pry-clr-1);
+}
